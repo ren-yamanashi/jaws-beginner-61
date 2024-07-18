@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  jaws-biginner-sample:
+    container_name: 'jaws-biginner-sample'
+    build:
+      context: .
+    image: jaws-biginner-sample-image
+    ports:
+      - 3000:3000
