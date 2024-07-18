@@ -1,10 +1,10 @@
 version: '3.8'
 
 services:
-  jaws-biginner-sample:
-    container_name: 'jaws-biginner-sample'
+  jaws-beginner-sample:
+    container_name: 'jaws-beginner-sample'
     build:
       context: .
-    image: jaws-biginner-sample-image
+    image: jaws-beginner-sample-image
     ports:
-      - 3000:3000
+      - 80:80
